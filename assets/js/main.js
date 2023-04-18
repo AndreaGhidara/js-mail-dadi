@@ -13,10 +13,10 @@ btn.addEventListener("click", function() {
         
         if ( actualUser == email ) {
             alert("bentornato");
-        } 
-        if ( actualUser != email ) {
+            break;
+        } else {
             txt.innerHTML = "Hai sbagliato qualcosa, riprova";
-            location.reload();
+            let actualValue = document.querySelector("input").value
         }
         
     }
